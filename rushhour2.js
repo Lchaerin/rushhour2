@@ -24,6 +24,33 @@ var j9=3;
 var i10=4;//green
 var j10=4;
 
+function allclear()
+{
+    board = Array(Array(0,0,0,0,0,0),Array(0,0,0,0,0,0),Array(0,0,0,0,0,0),Array(0,0,0,0,0,0),Array(0,0,0,0,0,0),Array(0,0,0,0,0,0),Array(7,7,7,7));
+    tableID = Array(Array("00","01","02","03","04","05"),Array("10","11","12","13","14","15"),Array("20","21","22","23","24","25"),Array("30","31","32","33","34","35"),Array("40","41","42","43","44","45"),Array("50","51","52","53","54","55"),Array("60","61","62","63"));
+    score;
+    i0=2;//red
+    j0=0;
+    i1=1;//yellowgreen
+    j1=5;
+    i2=3;//purple
+    j2=5;
+    i3=3;//orange
+    j3=0;
+    i4=5;//blue
+    j4=0;
+    i5=1;//yellow
+    j5=2;
+    i6=3;//skyblue
+    j6=3;
+    i8=4;//pink
+    j8=1;
+    i9=4;//violet
+    j9=3;
+    i10=4;//green
+    j10=4;
+    movecar();
+}
 
 function moveit(num){
     if(col==2){
