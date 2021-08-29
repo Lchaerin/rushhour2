@@ -320,13 +320,13 @@ function select(num){
     col=board[parseInt(num/6)][num%6];
     //alert(judge(num));
     //alert(col);
-    if(col==2||col==16||col==64||col==256||col==2048){//가로
+    if(col==16||col==64||col==256||col==2048){//가로
         document.getElementById(tableID[6][1]).style.background="#FFFFFF";
         document.getElementById(tableID[6][3]).style.background="#FFFFFF";
         document.getElementById(tableID[6][0]).style.background="#a5a5a5";
         document.getElementById(tableID[6][2]).style.background="#a5a5a5";
     }
-    else if(col==4||col==8||col==32||col==128||col==512||col==1024){
+    else if(col==2||col==4||col==8||col==32||col==128||col==512||col==1024){
         document.getElementById(tableID[6][0]).style.background="#FFFFFF";
         document.getElementById(tableID[6][2]).style.background="#FFFFFF";
         document.getElementById(tableID[6][1]).style.background="#a5a5a5";
